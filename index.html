@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Homepage</title>
+<!-- font-->
+   <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400' rel='stylesheet' type='text/css'>
+<!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+    <script type="text/javascript" src="js/jquery.vaccordion.js"></script>
+<!-- other js libraries -->
+    <script src="http://code.highcharts.com/highcharts.js"></script>
+    <script src="http://code.highcharts.com/modules/exporting.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/chart-style.js"></script>
+<!-- Bootstrap -->
+<!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<!-- Custom Styles -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+ 
+<body id="click-away">
+    <div class="row header">
+        <div class="logo col-md-3 col-xs-6"><img src="images/logo.png" alt="Nextpert"></div>
+        <div class="col-md-9 col-xs-6 header-items">
+            <div class="row">
+                <div class="quicklinks">
+                    <span class="highlight"><a href=# class="line"><span class="glyphicon-question-sign"></span>  Help</a><span style="color: white" class="no-show">|</span><a href=#>Ask a Nextpert</a></span><a href=#>Scholastic Central</a><span style="color: white" class="no-show">|</span><a href=#>Contact Us</a><span style="color: white" class="no-show">|</span><a href=#>About Us</a><span style="color: white" class="no-show">|</span><a href=#>Logout</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="btn-group search">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        ALL <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Other Category</a></li>
+                        <li><a href="#">Other Category</a></li>
+                        <li><a href="#">Other Category</a></li>
+                    </ul>
+                    <input id="search-box" type="search" results>
+                        <span id="search-icon" class="glyphicon glyphicon-search"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="container">
+    <div class="row menu">
+        <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" id="profile-button"><a href=#profile><img src="images/teresa.jpg"><span id="teresa"> Teresa (5)</span> </a></li>
+            <li class="line no-show">|</li>
+            <li role="presentation" class="active" id="home-button"><a href=#home>HOME</a></li>
+            <li role="presentation" id="build-button"><a href=#build>BUILD</a></li>
+            <li role="presentation" id="learn-button"><a href=#learn>LEARN</a></li>
+            <li role="presentation" id="connect-button"><a href=#connect>CONNECT</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="home"> 
+   
+        <div class="row mid-section">
+            <div class="container accordion">
+                <div class="accordion-container" style="margin:0px;">
+                    <div id="va-accordion" class="va-container" style="margin-top:0px; width: 100%;">
+			<div class="va-wrapper">
+                            <div class="va-slice va-slice-color-1">
+				<div class="va-title">Hi Teresa! Let's get started<a href=#><img src="images/arrows-07.png"></a></div>
+				<div class="va-content">
+				    <div class="row">
+                                        <div class="col-md-4 col-xs-12 square"><a id="build-square" href="#build"><div class="square-title">BUILD</div><img src="images/icons-03.png" alt="build"><p class="square-text">Create your own assesments and lessons or explore premade options.</p></a></div>
+                                        <div class="col-md-4 col-xs-12 square"><a id="learn-square" href="#learn"><div class="square-title">LEARN</div><img src="images/icons-04.png" alt="build"><p class="square-text">Find resources and take Scolastic U courses to support literacy instruction.</p></a></div>
+                                        <div class="col-md-4 col-xs-12 square"><a id="connect-square" href="#connect"><div class="square-title">CONNECT</div><img src="images/icons-05.png" alt="build"><p class="square-text">Connect with other educators and Nextperts with a wide range of experience.</p></a></div>
+                                    </div>
+				</div>
+			    </div>	
+			</div>
+		    </div>
+                </div>
+            </div>
+        </div>
+ 
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 margin">
+                    <div class="row subtitle subtitle-1">Nextpert Feed</div>
+                    <div class="row">
+                        <div class="col-md-6 col-xs-12">
+                            <div class="row"><span class="default">Default Filters</span><a href=# class="link"><span>Change Filters</span></a></div>
+                            <div class="row"><span class="filters">Grade 4</span><span class="filters">All Subjects</span><span class="filters">Cambridge, MA</span></div>
+                        </div>
+                        <div class="col-md-6 col-xs-12 sort"><div class="default">Sort By</div>
+                            <div class="btn-group" data-toggle="buttons">
+                                <label class="btn btn-primary active sort-by">
+                                    <input type="radio" name="options" id="option1"  autocomplete="off" checked> Relevancy
+                                </label>
+                                <label class="btn btn-primary sort-by">
+                                    <input type="radio" name="options" id="option2" autocomplete="off"> Popularity
+                                </label>
+                                <label class="btn btn-primary sort-by">
+                                    <input type="radio" name="options" id="option3" autocomplete="off"> Newest
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="newsfeed"></div>
+                    <div class="more"><a href=#>View More</a></div>
+                </div>
+                <div class="col-md-4">
+                    <div class="margin">
+                    <div class="row subtitle">Nextpertise</div>
+                    <div class="row"><div class="novice nextpertise"></div><div class="rank nextpertise">Nextpert Novice</div><div class="encourage">Keep it up!</div></div>
+                    <div id="chart-container" style="min-width: 310px; height: 310px; margin: 0 auto"></div>
+                    </div>
+                    <div class="subtitle">In Progress</div>
+                    <div class="in-progress">
+                        <p><span class="draft">DRAFT </span><span class="lesson">Geometry Lesson</span></p>
+                        <p class="categories"><span>LESSON</span><span>|</span><span>GRADE 4</span><span>|</span><span>MATH</span></p>
+                        <a class="edit" href=#>Edit</a>
+                    </div>
+                    <div class="in-progress">
+                        <p><span class="draft">DRAFT </span><span class="lesson">Division Lesson</span></p>
+                        <p class="categories"><span>LESSON</span><span>|</span><span>GRADE 4</span><span>|</span><span>MATH</span></p>
+                        <a  class="edit" href=#>Edit</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+    <div role="tabpanel" class="tab-pane" id="learn"><div class="empty-page">Learn Page</div></div>
+    <div role="tabpanel" class="tab-pane" id="connect"><div class="empty-page">Connect Page</div></div>
+    <div role="tabpanel" class="tab-pane" id="build"><div class="empty-page">Build Page</div></div>
+    <div role="tabpanel" class="tab-pane" id="profile">
+        <div class="col-md-12 upperline"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="prof-pic"><img src="images/teresa.jpg"</div>
+                    <div class="profile-header">
+                        <p class="name">TERESA JOHNSON</p>
+                        <p class="sub-name">Nextpert Novice</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="menu-box">
+                    <a class="btn btn-primary side-nav-button" id="side-nav-link" role="button" data-toggle="collapse" href="#side-menu" aria-expanded="false" aria-controls="collapseExample">
+                        <img id="little-arrows" src="images/arrows-06.png">
+                    </a>
+                    <div class="collapse" id="side-menu">
+                        <div class="well">
+                             <ul class="nav nav-tabs" role="tablist">
+                                <li role="presentation"  id="profile1-button"><a href="#profile1" aria-controls="home" role="tab" data-toggle="tab">Profile</a></li>
+                                <li>
+                                   <a class="btn btn-primary side-nav-button" id="document-link" role="button" data-toggle="collapse" href="#inner-menu" aria-expanded="false" aria-controls="collapseExample">
+                                        DOCUMENTS<img id="caret" src="images/caret-11.png">
+                                    </a>
+                                    <div class="collapse" id="inner-menu">
+                                        <div class="well">
+                                            <ul class="nav nav-tabs" role="tablist">
+                                                <li><a id="new-folder" href=#>New Folder +</a></li>
+                                                <li role="presentation" id="implementations-button"><a href="#implementations" aria-controls="home" role="tab" data-toggle="tab">Implementations (22)</a></li>
+                                                <li role="presentation" id="bookmarked-button"><a href="#bookmarked" aria-controls="profile" role="tab" data-toggle="tab">Bookmarked (40)</a></li>
+                                                <li role="presentation" id="building-button"><a href="#building" id="building-link" aria-controls="messages" role="tab" data-toggle="tab">BUILDING/BUILT (0)</a></li>
+                                                <li role="presentation" id="liked-button"><a href="#liked" aria-controls="settings" role="tab" data-toggle="tab">LIKED (22)</a></li>
+                                                <li role="presentation" id="recent-button"><a href="#recent" aria-controls="settings" role="tab" data-toggle="tab">RECENTLY VIEWED (20)</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li role="presentation" id="activity-button"><a href="#activity" aria-controls="messages" role="tab" data-toggle="tab">Activity</a></li>
+                                <li role="presentation" id="friends-button"><a href="#friends" aria-controls="settings" role="tab" data-toggle="tab">Friends</a></li>
+                                <li role="presentation" id="inbox-button"><a href="#inbox" aria-controls="settings" role="tab" data-toggle="tab">Inbox</a></li>
+                            </ul>
+                        </div>
+                    </div>   
+                </div>
+                    </div>
+
+                <div class="col-md-9">
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane active empty-page" id="profile1">teresa's profile page</div>
+                        <div role="tabpanel" class="tab-pane empty-page" id="implementations">teresa's implementations</div>
+                        <div role="tabpanel" class="tab-pane empty-page" id="bookmarked">bookmarked documents</div>
+                        <div role="tabpanel" class="tab-pane" id="building">
+                            <div class="document-header">DOCUMENTS > BUILDING/BUILT</div>
+                            <div class="margin">
+                            <div class="subtitle">Add a file to the BUILDING/BUILT folder <a class="link" href=#>Cancel</a></div>
+                            <div class="filters">Add file or link</div>
+                            <div class="gap"><a  class="link2" href=#>Click here to upload file from computer</a></div>
+                            <div class="gap">OR</div>
+                            <div class="gap">Paste url here: <input placeholder="http://" type="text"></div>
+                            <div class="gap filters">Add to</div>
+                            <div class="gap">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-default select-dropdowns">Select</button>
+                                    <button type="button" class="btn btn-default dropdown-toggle select-dropdowns" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <span class="caret"></span>
+                                        <span class="sr-only">Toggle Dropdown</span>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a >BUILDING/BUILT</a></li>
+                                        <li><a href="#" class="link2">New Folder</a></li>
+                                        <li><a>etc</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="gap filters">Title</div>
+                            <div class="gap"><input type="text"></div>
+                            <div class="gap filters">Description</div>
+                            <div class="gap"><input class="description-input" type="text"></div>
+                            <div><span class="gap filters">Grades</span> Click on a grade to select it</div>
+                            <div class="gap">
+                                <div class="btn-group" data-toggle="buttons">
+                                    <label class="btn btn-primary active select-dropdowns">
+                                        <input type="checkbox" autocomplete="off" checked> PreK
+                                    </label>
+                                    <label class="btn btn-primary select-dropdowns">
+                                        <input type="checkbox" autocomplete="off"> K
+                                    </label>
+                                    <label class="btn btn-primary select-dropdowns">
+                                        <input type="checkbox" autocomplete="off"> 1
+                                    </label>
+                                    <label class="btn btn-primary select-dropdowns">
+                                        <input type="checkbox" autocomplete="off"> 2
+                                    </label>
+                                    <label class="btn btn-primary select-dropdowns">
+                                        <input type="checkbox" autocomplete="off"> 3
+                                    </label>
+                                    <label class="btn btn-primary select-dropdowns">
+                                        <input type="checkbox" autocomplete="off"> 4
+                                    </label>
+                                    <label class="btn btn-primary select-dropdowns">
+                                        <input type="checkbox" autocomplete="off"> 5
+                                    </label>
+                                    <label class="btn btn-primary select-dropdowns">
+                                        <input type="checkbox" autocomplete="off"> 6
+                                    </label>
+                                    <label class="btn btn-primary select-dropdowns">
+                                        <input type="checkbox" autocomplete="off"> 7
+                                    </label>
+                                    <label class="btn btn-primary select-dropdowns">
+                                        <input type="checkbox" autocomplete="off"> 8
+                                    </label>
+                                    <label class="btn btn-primary select-dropdowns">
+                                        <input type="checkbox" autocomplete="off"> 9
+                                    </label>
+                                    <label class="btn btn-primary select-dropdowns">
+                                        <input type="checkbox" autocomplete="off"> 10
+                                    </label>
+                                    <label class="btn btn-primary select-dropdowns">
+                                        <input type="checkbox" autocomplete="off"> 11
+                                    </label>
+                                    <label class="btn btn-primary select-dropdowns">
+                                        <input type="checkbox" autocomplete="off"> 12
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="gap filters">Subject/Topic</div>
+                            <div class="gap">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-default select-dropdowns">Select</button>
+                                    <button type="button" class="btn btn-default dropdown-toggle select-dropdowns" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <span class="caret"></span>
+                                        <span class="sr-only">Toggle Dropdown</span>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a >Subject 1</a></li>
+                                        <li><a >Subject 2</a></li>
+                                        <li><a >etc</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="gap filters">Type</div>
+                            <div class="gap">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-default select-dropdowns">Select</button>
+                                    <button type="button" class="btn btn-default dropdown-toggle select-dropdowns" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <span class="caret"></span>
+                                        <span class="sr-only">Toggle Dropdown</span>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a>Type 1</a></li>
+                                        <li><a>Type 2</a></li>
+                                        <li><a>etc</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="gap filters filters2"><a href=#>Submit</a></div>
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane empty-page" id="liked">liked documents</div>
+                        <div role="tabpanel" class="tab-pane empty-page" id="recent">recent documents</div>
+                        <div role="tabpanel" class="tab-pane empty-page" id="activity">activity tracker</div>
+                        <div role="tabpanel" class="tab-pane empty-page" id="friends">friends</div>
+                        <div role="tabpanel" class="tab-pane empty-page" id="inbox">inbox</div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </div>
+</div>
+ 
+<div class="footer"><div class="container"><a href=#>Home</a><span>|</span><a href=#>Website Feedback</a></div></div>
+ 
+<script type="text/javascript">
+    //build start panel accordion
+    $(function() {
+	$('#va-accordion').vaccordion({
+					
+	    accordionH		: 100+"%",
+	    visibleSlices	: 2,
+	    expandedHeight	: 100+"%",
+            animOpacity		: 0.1,
+	    contentAnimSpeed: 100
+        });
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+<Newsfeed>
+  <Item>
+    <title>Cooper Middle School</title>
+    <date>5</date>
+    <likes>2</likes>
+    <type>case study</type>
+    <grade>grade 4</grade>
+    <tag1>high poverty</tag1>
+    <tag2>collaboration</tag2>
+    <tag3>engagement</tag3>
+    <tag4 />
+    <tag5 />
+    <image>https://farm4.staticflickr.com/3590/3421670462_dce36578ba_z.jpg?zz=1</image>
+    <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed nisl gravida ex aliquet suscipit. Suspendisse eu mattis ligula. Duis tempus sed urna cursus accumsan. Nulla lobortis, quam non accumsan placerat, quam neque dapibus </description>
+    <featured></featured>
+  </Item>
+  <Item>
+    <title>Title</title>
+    <date>4</date>
+    <likes>6</likes>
+    <type>type</type>
+    <grade>grade</grade>
+    <tag1>tag</tag1>
+    <tag2>tag</tag2>
+    <tag3>tag</tag3>
+    <tag4 />
+    <tag5 />
+    <image>images/bluesquare-09.png</image>
+    <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed nisl gravida ex aliquet suscipit. Suspendisse eu mattis ligula. Duis tempus sed urna cursus accumsan. Nulla lobortis, quam non accumsan placerat, quam neque dapibus </description>
+    <featured>Nextpert Featured</featured>
+  </Item>
+  <Item>
+    <title>Title</title>
+    <date>7</date>
+    <likes>14</likes>
+    <type>type</type>
+    <grade>grade</grade>
+    <tag1>tag</tag1>
+    <tag2 />
+    <tag3 />
+    <tag4 />
+    <tag5 />
+    <image>images/bluesquare-09.png</image>
+    <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed nisl gravida ex aliquet suscipit. Suspendisse eu mattis ligula. Duis tempus sed urna cursus accumsan. Nulla lobortis, quam non accumsan placerat, quam neque dapibus </description>
+    <featured></featured>
+  </Item>
+  <Item>
+    <title>Title</title>
+    <date>8</date>
+    <likes>2</likes>
+    <type>type</type>
+    <grade>grade</grade>
+    <tag1>tag</tag1>
+    <tag2>tag</tag2>
+    <tag3 />
+    <tag4 />
+    <tag5 />
+    <image>images/bluesquare-09.png</image>
+    <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed nisl gravida ex aliquet suscipit. Suspendisse eu mattis ligula. Duis tempus sed urna cursus accumsan. Nulla lobortis, quam non accumsan placerat, quam neque dapibus </description>
+    <featured>Nextpert Featured</featured>
+  </Item>
+  <Item>
+    <title>Title</title>
+    <date>4</date>
+    <likes>9</likes>
+    <type>type</type>
+    <grade>grade</grade>
+    <tag1>tag</tag1>
+    <tag2>tag</tag2>
+    <tag3>tag</tag3>
+    <tag4>tag</tag4>
+    <tag5 />
+    <image>images/bluesquare-09.png</image>
+    <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed nisl gravida ex aliquet suscipit. Suspendisse eu mattis ligula. Duis tempus sed urna cursus accumsan. Nulla lobortis, quam non accumsan placerat, quam neque dapibus </description>
+    <featured></featured>
+  </Item>
+  <Item>
+    <title>Title</title>
+    <date>3</date>
+    <likes>8</likes>
+    <type>type</type>
+    <grade>grade</grade>
+    <tag1>tag</tag1>
+    <tag2>tag</tag2>
+    <tag3 />
+    <tag4 />
+    <tag5 />
+    <image>images/bluesquare-09.png</image>
+    <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed nisl gravida ex aliquet suscipit. Suspendisse eu mattis ligula. Duis tempus sed urna cursus accumsan. Nulla lobortis, quam non accumsan placerat, quam neque dapibus </description>
+    <featured></featured>
+  </Item>
+</Newsfeed>
